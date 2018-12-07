@@ -32,6 +32,7 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="EditorCodeBlockStart" />
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="alt back_space" />
   </action>
