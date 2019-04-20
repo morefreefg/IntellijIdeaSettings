@@ -1,4 +1,4 @@
-<keymap version="1" name="Mac OS X copy 1 gemini" parent="Mac OS X">
+<keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
   <action id="$Delete">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
@@ -10,15 +10,6 @@
   <action id="Arrangement.Rule.Remove">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
-  </action>
-  <action id="Back">
-    <keyboard-shortcut first-keystroke="meta alt left" />
-    <mouse-shortcut keystroke="button4" />
-    <keyboard-shortcut first-keystroke="ctrl meta j" />
-  </action>
-  <action id="CloseContent">
-    <keyboard-shortcut first-keystroke="meta f4" />
-    <keyboard-shortcut first-keystroke="meta w" />
   </action>
   <action id="Debugger.RemoveArrayFilter">
     <keyboard-shortcut first-keystroke="delete" />
@@ -32,35 +23,11 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
-  <action id="EditorCodeBlockStart" />
-  <action id="EditorDeleteToLineStart">
+  <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="alt back_space" />
   </action>
   <action id="EditorDeleteToWordStart">
     <keyboard-shortcut first-keystroke="meta back_space" />
-  </action>
-  <action id="EditorLineEnd">
-    <keyboard-shortcut first-keystroke="end" />
-    <keyboard-shortcut first-keystroke="alt right" />
-  </action>
-  <action id="EditorLineStart">
-    <keyboard-shortcut first-keystroke="home" />
-    <keyboard-shortcut first-keystroke="alt left" />
-  </action>
-  <action id="EditorNextWord">
-    <keyboard-shortcut first-keystroke="meta right" />
-  </action>
-  <action id="EditorPreviousWord">
-    <keyboard-shortcut first-keystroke="meta left" />
-  </action>
-  <action id="EditorSelectWord" />
-  <action id="FindInPath">
-    <keyboard-shortcut first-keystroke="shift meta f" />
-  </action>
-  <action id="Forward">
-    <keyboard-shortcut first-keystroke="meta alt right" />
-    <mouse-shortcut keystroke="button5" />
-    <keyboard-shortcut first-keystroke="ctrl meta l" />
   </action>
   <action id="Graph.Delete">
     <keyboard-shortcut first-keystroke="delete" />
@@ -70,9 +37,6 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
-  <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="shift ctrl 6" />
-  </action>
   <action id="RunDashboard.RemoveConfiguration">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
@@ -81,7 +45,6 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
-  <action id="ToggleBookmark6" />
   <action id="XDebugger.RemoveWatch">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
