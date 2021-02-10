@@ -128,14 +128,6 @@
             </plugin>
           </value>
         </entry>
-        <entry key="*.cgo">
-          <value>
-            <plugin>
-              <option name="myPluginId" value="org.jetbrains.plugins.go" />
-              <option name="myPluginName" value="Go" />
-            </plugin>
-          </value>
-        </entry>
         <entry key="*.chm">
           <value>
             <plugin>
@@ -223,14 +215,6 @@
               <option name="myPluginId" value="DevKit" />
               <option name="myPluginName" value="Plugin DevKit" />
               <option name="myBundled" value="true" />
-            </plugin>
-          </value>
-        </entry>
-        <entry key="*.dart">
-          <value>
-            <plugin>
-              <option name="myPluginId" value="Dart" />
-              <option name="myPluginName" value="Dart" />
             </plugin>
           </value>
         </entry>
@@ -476,6 +460,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.gdbcommandsfiletypeextension">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.nativeDebug" />
+              <option name="myPluginName" value="Native Debugging Support" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.gdsl">
           <value>
             <plugin>
@@ -500,22 +492,6 @@
               <option name="myPluginId" value="Git4Idea" />
               <option name="myPluginName" value="Git" />
               <option name="myBundled" value="true" />
-            </plugin>
-          </value>
-        </entry>
-        <entry key="*.go">
-          <value>
-            <plugin>
-              <option name="myPluginId" value="org.jetbrains.plugins.go" />
-              <option name="myPluginName" value="Go" />
-            </plugin>
-          </value>
-        </entry>
-        <entry key="*.go2">
-          <value>
-            <plugin>
-              <option name="myPluginId" value="org.jetbrains.plugins.go" />
-              <option name="myPluginName" value="Go" />
             </plugin>
           </value>
         </entry>
@@ -1007,6 +983,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.lldbcommandsfiletypeextension">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.nativeDebug" />
+              <option name="myPluginName" value="Native Debugging Support" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.markdown">
           <value>
             <plugin>
@@ -1283,14 +1267,6 @@
               <option name="myPluginId" value="org.jetbrains.android" />
               <option name="myPluginName" value="Android" />
               <option name="myBundled" value="true" />
-            </plugin>
-          </value>
-        </entry>
-        <entry key="*.s">
-          <value>
-            <plugin>
-              <option name="myPluginId" value="org.jetbrains.plugins.go" />
-              <option name="myPluginName" value="Go" />
             </plugin>
           </value>
         </entry>
@@ -1762,15 +1738,6 @@
             </plugin>
           </value>
         </entry>
-        <entry key=".analysis_options">
-          <value>
-            <plugin>
-              <option name="myPluginId" value="org.jetbrains.plugins.yaml" />
-              <option name="myPluginName" value="YAML" />
-              <option name="myBundled" value="true" />
-            </plugin>
-          </value>
-        </entry>
         <entry key=".babelrc">
           <value>
             <plugin>
@@ -1975,14 +1942,6 @@
               <option name="myPluginId" value="Git4Idea" />
               <option name="myPluginName" value="Git" />
               <option name="myBundled" value="true" />
-            </plugin>
-          </value>
-        </entry>
-        <entry key="go.mod">
-          <value>
-            <plugin>
-              <option name="myPluginId" value="org.jetbrains.plugins.go" />
-              <option name="myPluginName" value="Go" />
             </plugin>
           </value>
         </entry>
@@ -2224,26 +2183,6 @@
                       <FeaturePluginData displayName="Cucumber Java" pluginName="Cucumber for Java" pluginId="cucumber-java" />
                     </value>
                   </entry>
-                  <entry key="DartCommandLineRunConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="Dart Command Line App" pluginName="Dart" pluginId="Dart" />
-                    </value>
-                  </entry>
-                  <entry key="DartRemoteDebugConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="Dart Remote Debug" pluginName="Dart" pluginId="Dart" />
-                    </value>
-                  </entry>
-                  <entry key="DartTestRunConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="Dart Test" pluginName="Dart" pluginId="Dart" />
-                    </value>
-                  </entry>
-                  <entry key="DartWebdevConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="Dart Web" pluginName="Dart" pluginId="Dart" />
-                    </value>
-                  </entry>
                   <entry key="DatabaseScript">
                     <value>
                       <FeaturePluginData displayName="Database Script" pluginName="Database Tools and SQL" pluginId="com.intellij.database" />
@@ -2254,49 +2193,14 @@
                       <FeaturePluginData displayName="Firefox Remote" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
                     </value>
                   </entry>
-                  <entry key="FlutterBazelRunConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="Flutter (Bazel)" pluginName="Flutter" pluginId="io.flutter" />
-                    </value>
-                  </entry>
-                  <entry key="FlutterBazelTestConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="Flutter Test (Bazel)" pluginName="Flutter" pluginId="io.flutter" />
-                    </value>
-                  </entry>
-                  <entry key="FlutterRunConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="Flutter" pluginName="Flutter" pluginId="io.flutter" />
-                    </value>
-                  </entry>
-                  <entry key="FlutterTestConfigType">
-                    <value>
-                      <FeaturePluginData displayName="Flutter Test" pluginName="Flutter" pluginId="io.flutter" />
-                    </value>
-                  </entry>
                   <entry key="GlassfishConfiguration">
                     <value>
                       <FeaturePluginData displayName="GlassFish Server" pluginName="GlassFish" pluginId="GlassFish" />
                     </value>
                   </entry>
-                  <entry key="GoAppEngineRunConfiguration">
+                  <entry key="GradleKonanAppRunConfiguration">
                     <value>
-                      <FeaturePluginData displayName="Go App Engine" pluginName="Go" pluginId="org.jetbrains.plugins.go" />
-                    </value>
-                  </entry>
-                  <entry key="GoApplicationRunConfiguration">
-                    <value>
-                      <FeaturePluginData displayName="Go Build" pluginName="Go" pluginId="org.jetbrains.plugins.go" />
-                    </value>
-                  </entry>
-                  <entry key="GoRemoteDebugConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="Go Remote" pluginName="Go" pluginId="org.jetbrains.plugins.go" />
-                    </value>
-                  </entry>
-                  <entry key="GoTestRunConfiguration">
-                    <value>
-                      <FeaturePluginData displayName="Go Test" pluginName="Go" pluginId="org.jetbrains.plugins.go" />
+                      <FeaturePluginData displayName="Kotlin/Native Application" pluginName="org.jetbrains.kotlin" pluginId="org.jetbrains.kotlin" />
                     </value>
                   </entry>
                   <entry key="GradleRunConfiguration">
