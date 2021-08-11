@@ -4,6 +4,7 @@
       <list>
         <option value="$USER_HOME$/IdeaProjects" />
         <option value="$USER_HOME$/Downloads" />
+        <option value="$USER_HOME$/AndroidStudioProjects" />
       </list>
     </option>
   </component>
